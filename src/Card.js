@@ -7,7 +7,7 @@ function Card(props) {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">
-          <b>Course:</b> {'\t'} {props.courseID} - {props.courseName} <br />
+          <b>Course:</b> {'\t'} {props.courseCode} - {props.courseName} <br />
           <b>Time:</b> {'\t'} {props.time} <br />
           <b>Tutor:</b> {'\t'} {props.tutorName} <br />
         </p>

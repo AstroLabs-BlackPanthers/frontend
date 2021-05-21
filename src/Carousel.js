@@ -35,7 +35,7 @@ function Carousel() {
           <div className="carousel-item active">
             <div style={carouselStyle1} className="carousel-image carousel1"></div>
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+              <h5>Tutoring Online System</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>

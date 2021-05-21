@@ -4,19 +4,15 @@ import NavBar from './NavBar';
 
 let headerLinks = [
     {label: 'Home', path: '/'},
-    {label: 'About', path: '/about'},
-    {label: 'Contact', path: '/contact'},
-    {label: 'Login', path: '/login'},
     {label: 'Register', path:'/register'},
     {label: 'Profile', path: '/profile'},
+    {label: 'Login', path: '/login'},
+
 ]
   
 let footerLinks = [
     {label: 'Home', path: '/'},
-    {label: 'About', path: '/about'},
-    {label: 'Contact', path: '/contact'},
     {label: 'FAQs', path:'/faqs'},
-    {label: 'Subscribe', path: '/subscribe'},
     {label: 'Terms & Conditions', path: '/terms-and-conditions'}
 ]
 

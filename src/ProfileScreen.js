@@ -6,7 +6,7 @@ import Card from "./Card";
 
 function ProfileScreen() {
 
-    const { firstName, lastName, email, avatar, updateUser } = useContext(UserContext);
+    const { firstName, lastName, email, avatar, updateUser, address } = useContext(UserContext);
 
     return (
         <div className="container py-5" style={{maxWidth: 600, minHeight: "calc(100vh - 112px)"}}>
