@@ -54,7 +54,7 @@ function RegistrationScreen() {
         // }
 
         if(firstNameField.value.length == 0) {
-            alert(userTypeField.state.value);
+            // alert(userTypeField.state.value);
             errors.push("Please enter your first name");
         }
         if(lastNameField.value.length == 0) {
@@ -78,7 +78,7 @@ function RegistrationScreen() {
             setState("sending");
             setErrorsState([]);
 
-            formData.append('userType', userTypeField.value);
+            // formData.append('userType', userTypeField.value);
             formData.append('firstName', firstNameField.value);
             formData.append('lastName', lastNameField.value);
             formData.append('email', emailField.value);
@@ -117,7 +117,8 @@ function RegistrationScreen() {
                 ref={ (elem)=>avatarField = elem } type="file" className="form-control" id="avatar" aria-describedby="avatar" />
             </div>
 
-            <div className="mb-3">
+            {/* <div className="mb-3">
+
                 <label for="userType" className="form-label">Register as <select 
                     // value={this.state.value} 
                     ref={ (elem)=>avatarField = elem } 
@@ -127,7 +128,8 @@ function RegistrationScreen() {
                         <option value="tutor">Tutor</option>
                     </select> 
                 </label>
-            </div>
+            </div> */}
+            
 
             <div className="mb-3">
                 <label for="firstName" className="form-label">First Name</label>
