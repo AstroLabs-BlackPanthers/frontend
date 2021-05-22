@@ -36,21 +36,21 @@ function Carousel() {
             <div style={carouselStyle1} className="carousel-image carousel1"></div>
             <div className="carousel-caption d-none d-md-block">
               <h5>Tutoring Online System</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <p>Learn anytime, anywhere</p>
             </div>
           </div>
           <div className="carousel-item">
             <div style={carouselStyle2} className="carousel-image carousel2"></div>
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>Register as a student or a tutor </h5>
+              <p>you choose the timings that suits you.</p>
             </div>
           </div>
           <div className="carousel-item">
             <div style={carouselStyle3} className="carousel-image carousel3"></div>
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>Variety of courses to choose from</h5>
+              <p>Courses are tailored to the needs of the students.</p>
             </div>
           </div>
         </div>
